@@ -1,0 +1,676 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 6000px;
+}
+
+/* first div */
+#main-head {
+  margin: auto;
+  margin-top: 30px;
+  border: 1px black solid;
+  border-style: none;
+  width: 1900px;
+  height: 800px;
+  background: url(bg-image.png) no-repeat center center/cover;
+  border-radius: 0 0 35px 35px;
+}
+
+/* list items */
+#main-head ul li {
+  list-style: none;
+  padding: 10px;
+  display: inline-flex;
+  margin-top: 25px;
+}
+
+.topnav {
+  margin-left: 200px;
+  height: 15px;
+
+}
+
+ .vector {
+  margin-left: 235px;
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+
+ul .home {
+  margin-left: 400px;
+}
+
+
+ul .holla {
+  margin-left: 250px;
+}
+
+ul .round-img {
+  border-radius: 0px;
+}
+
+ul .ales {
+  margin-left: 1365px;
+  margin-top: -50px;
+}
+
+ul .round-img {
+  border-radius: 50%;
+  margin-top: -10px;
+}
+
+#pri-head {
+  border: 1px white solid;
+  padding-bottom: 30px;
+  margin-top: -45px;
+  margin-right: 50px;
+  padding-right: 20px;
+  border-style: none;
+}
+
+.dot {
+  margin: auto;
+  margin-left: 1763px;
+  padding-top: 15px;
+  opacity: 0.9;
+  margin-bottom: -30px;
+}
+
+.outside {
+  border-radius: 50%;
+}
+
+ul .restaurant {
+  margin-left: 30px;
+}
+
+ul .tours {
+  margin-left: 30px;
+}
+
+ul .hotels {
+  margin-left: 30px;
+}
+
+ul .holder {
+  margin-left: 30px;
+}
+
+ul .place {
+  margin-left: 30px;
+}
+
+ul .contact {
+  margin-left: 30px;
+}
+
+/* First heading */
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 170px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+/* first link */
+.first-link {
+  text-decoration: none;
+  color: aliceblue;
+  background: #7B61FF;
+  border-radius: 8px;
+  padding-left: 26px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-left: 855px;
+  font-weight: bold;
+}
+
+/* Second div */
+
+#second-head {
+  margin: auto;
+  border-radius: 15px;
+  border: 1px white solid;
+  margin-top: 200px;
+  background: white;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  max-width: 1300px;
+  height: 70px;
+}
+
+/* first minor div */
+
+#minor {
+  border: 1px white solid;
+  margin-left: 0px;
+  margin-right: 1040px;
+  border-style: none;
+}
+
+#minor, 
+.locate,
+.explore {
+  padding-left: 25px;
+  padding-top: -20px;
+}
+
+#minor img {
+  padding-top: 30px;
+}
+
+/* sub div */
+#okay {
+  border: 1px white solid;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-top: -40px;
+  border-style: none;
+}
+
+#minor .locate {
+  color: black;
+  padding-top: -10px;
+}
+
+#minor .explore {
+  color: black;
+}
+
+/* minor second */
+
+#minor-second {
+  border: 1px white solid;
+  margin-left: 360px;
+  margin-right: 700px;
+  margin-top: -90px;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+#minor-second img {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+#minor-head {
+  border: 1px white solid;
+  margin-top: -35px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-style: none;
+}
+
+
+#minor-head .activity,
+ .all {
+  color: black;
+  padding-left: 30px;
+ }
+ 
+ /* minor third */
+
+ #minor-third {
+  border: 1px white solid;
+  margin-left: 600px;
+  margin-right: 300px;
+  margin-top: -110px;
+  margin-bottom: px;
+  padding-bottom: -10px;
+  border-style: none;
+ }
+
+ #minor-third img {
+  margin-bottom: -55px;
+  padding-top: 30px;
+ }
+
+ #minor-start {
+  border: 1px white solid;
+  margin-bottom: -20px;
+  border-style: none;
+ }
+
+ #minor-start
+ .date,
+ .choose {
+  color: black;
+  padding-left: 40px;
+  margin-right: 100px;
+ }
+
+ #minor-start .date {
+  margin-top: 25px;
+ }
+
+ /* minor fourth */
+
+ #minor-fourth {
+  border: 1px white solid;
+  margin-left: 900px;
+  margin-top: -100px;
+  border-style: none;
+  margin-right: 100px;
+ }
+
+ #minor-fourth img {
+  margin-bottom: -70px;
+  margin-left: 20px;
+ }
+
+ #minor-guest {
+  border: 1px white solid;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  border-style: none;
+ }
+
+ #minor-guest .guest, 
+ .one {
+  color: black;
+  padding-left: 50px;
+ }
+
+ #minor-guest .guest {
+  padding-top: 45px;
+ }
+
+ /* search icon */
+
+ .left {
+  margin-left: 1240px;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  height: 50px;
+ }
+
+ /* second div */
+
+ #another-section {
+  border: 1px lavender solid;
+  height: 3900px;
+  padding-top: 300px;
+  padding-left: 70px;
+ }
+
+ #another-section .popular {
+  padding-bottom: 50px;
+  padding-left: 70px;
+ }
+
+ #another-section div {
+  display: inline-block;
+  margin-top: 190px;
+  position: absolute;
+  margin-left: -200px;
+ }
+
+
+ #another-section img {
+  margin-left: 70px;
+  display: inline;
+ }
+
+ /* hotels and restaurant */
+
+ #hotel-section {
+  padding-top: 200px;
+ }
+
+ #hotel-section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightslategray;
+ }
+
+ /* first image */
+
+ #hotel-section .spa {
+  width: 380px;
+ }
+
+ section .hotels {
+  padding-left: 70px;
+  padding-bottom: 50px;
+ }
+
+ #hotel-section .view {
+  margin-bottom: -12px;
+  margin-left: 1240px;
+ }
+
+ #hotel-section div .Santa {
+  padding-top: 280px;
+  margin-left: -180px;
+ }
+
+
+ #hotel-section .checked {
+  color: orange;
+ }
+
+ #hotel-section .marked {
+  margin-left: 150px;
+ }
+
+ #hotel-section div img {
+  padding-top: 15px;
+  margin-left: -180px;
+ }
+
+ /* Second image */
+ 
+ #hotel-section .grand {
+  width: 380px;
+  margin-left: 20px;
+ }
+
+ #hotel-section div .tremezzo {
+  margin-left: -180px;
+  padding-top: 280px;
+ }
+
+ #hotel-section .trem {
+  margin-left: 120px;
+ }
+
+ /* third image */
+
+ #hotel-section .oberoi {
+  width: 380px;
+  margin-left: 20px;
+ }
+
+ #hotel-section .udai {
+  margin-left: -180px;
+  padding-top: 280px;
+ }
+
+ #hotel-section .ipur {
+  margin-left: 140px;
+ }
+
+ /* fourth image */
+ 
+ #hotel-section .aka {
+  width: 380px;
+  margin-left: 20px;
+ }
+
+ #hotel-section .beverly {
+  margin-left: -180px;
+  padding-top: 280px;
+ }
+
+ #hotel-section .los {
+  margin-left: 40px;
+ }
+
+ /* Travel Tips and Advice */
+
+ #travel-section {
+  padding-top: 200px;
+ }
+
+  #travel-section .right-arrow {
+  margin-bottom: -12px;
+  margin-left: 1240px;
+ }
+
+ #travel-section .tips {
+  padding-left: 70px;
+  padding-bottom: 70px;
+ }
+
+ #travel-section .village {
+  margin-top: -380px;
+  margin-left: 430px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #travel-section .world {
+  padding-left: 430px;
+  padding-top: 70px;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightslategray;
+  font-weight: bold;
+ }
+
+ #travel-section .mario {
+  margin-top: 70px;
+  margin-left: 360px;
+ }
+
+ #travel-section .brooklyn {
+  margin-top: -500px;
+  margin-left: 870px;
+ }
+
+ #travel-section .bridge {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 1250px;
+  margin-top: -380px;
+ }
+
+ #travel-section .always {
+  margin-left: 1250px;
+   padding-top: 70px;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightslategray;
+  font-weight: bold;
+ }
+
+ #travel-section .james {
+  margin-top: 96px;
+  margin-left: 1180px;
+ }
+
+ /* Activities Section */
+
+ #activity-section {
+  margin-top: 200px;
+ }
+
+ #activity-section .activities {
+  margin-left: 70px;
+  margin-bottom: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #activity-section .icon-2 {
+   margin-bottom: -12px;
+   margin-left: 1350px;
+ }
+
+ /* Images */
+
+ #activity-section p {
+  display: inline-block;
+ }
+
+ #activity-section div {
+  margin-left: -320px;
+  margin-top: 410px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+ }
+
+ /* About us */
+
+ #about-section {
+  margin-top: 200px;
+ }
+
+ #about-section .us {
+  padding-left: 200px;
+  padding-bottom: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+ }
+
+ #about-section .lorem {
+  padding-left: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  line-height: 20px;
+ }
+
+ #about-section .people {
+  margin-left: 930px;
+  margin-top: -390px;
+  border-radius: 30px;
+ }
+
+ #about-section .read-more {
+  margin-left: 213px;
+  margin-top: 50px;
+ }
+
+ /* footer section */
+
+ #footer-section {
+  border: 1px black solid;
+  border-style: none;
+  background: lavender;
+  height: 452px;
+  margin-left: -70px;
+  margin-top: 150px;
+ }
+
+ #footer-section .vectornav {
+  margin-left: 0px;
+  margin-top: 47px;
+ }
+
+ #footer-section .ris {
+  margin-left: 200px;
+  margin-top: 100px;
+ }
+
+ #footer-section .choices {
+  padding-left: 200px;
+  padding-top: 40px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #footer-section .fb {
+  margin-left: 200px;
+  margin-top: 70px;
+ }
+
+ /* About */
+
+ #footer-section .first-about {
+  margin-left: 650px;
+  margin-top: -200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #footer-section ul .news-about {
+  margin-left: 640px;
+ }
+
+ #footer-section ul .features {
+  margin-left: 640px;
+ }
+
+ #footer-section ul .new {
+  margin-left: 640px;
+ }
+
+ #footer-section ul .menu {
+  margin-left: 640px;
+ }
+
+ #footer-section ul li {
+  line-height: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ /* company */
+
+ #footer-section .company {
+  margin-left: 900px;
+  margin-top: -210px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #footer-section .why  {
+  margin-left: 890px;
+ }
+
+ #footer-section .partner {
+  margin-left: 890px;
+ }
+
+ #footer-section .FAQ {
+  margin-left: 890px;
+ }
+
+ #footer-section .blog {
+  margin-left: 890px;
+ }
+
+/* Support */
+
+#footer-section .support {
+  margin-left: 1150px;
+  margin-top: -210px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer-section .account {
+  margin-left: 1140px;
+}
+
+#footer-section .center {
+  margin-left: 1140px;
+}
+
+#footer-section .feedback {
+  margin-left: 1140px;
+}
+
+#footer-section .contact-us {
+  margin-left: 1140px;
+}
+
+/* Subscribe */
+
+#footer-section .subscribe {
+  margin-left: 1350px;
+  margin-top: -210px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+#footer-section .vector-gmail {
+  margin-left: 1370px;
+  margin-top: 60px;
+}
+
+#footer-section .your {
+  margin-left: 1420px;
+  margin-top: -40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer-section .email {
+  margin-left: 1420px;
+  padding-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer-section .finals {
+  margin-left: 1700px;
+  margin-top: -90px;
+}
